@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/zxing_barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Bạn có thể thêm 4 góc vàng giả lập ở đây -->
+    <ImageView
+        android:id="@+id/cornerTopLeft"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/corner_top_left"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="30dp" />
+
+    <ImageView
+        android:id="@+id/cornerTopRight"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/corner_top_right"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="30dp" />
+
+    <ImageView
+        android:id="@+id/cornerBottomLeft"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/corner_bottom_left"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="30dp" />
+
+    <ImageView
+        android:id="@+id/cornerBottomRight"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/corner_bottom_right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="30dp" />
+</RelativeLayout>

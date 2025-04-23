@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Thêm khoảng trống để dịch các nút xuống -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/> <!-- Điều chỉnh giá trị này để thay đổi vị trí -->
+
+    <!-- Nút "Thêm tài khoản" -->
+    <Button
+        android:id="@+id/btnAddAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm tài khoản"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Nút "Xóa tài khoản" -->
+    <Button
+        android:id="@+id/btnDeleteAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa tài khoản"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Thêm khoảng trống để đẩy ListView xuống -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/> <!-- Điều chỉnh giá trị này để thay đổi vị trí -->
+
+    <!-- ListView -->
+    <ListView
+        android:id="@+id/listViewAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

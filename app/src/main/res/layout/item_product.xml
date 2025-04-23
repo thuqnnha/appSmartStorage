@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Đoạn này sẽ chứa Button và TextView ngang nhau -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start|center_vertical">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:text="Tên: "
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/holo_red_light"
+            android:text="Xóa"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:layout_gravity="end"/> <!-- Căn nút bấm về phía bên phải -->
+
+    </LinearLayout>
+
+    <!-- Các TextView còn lại dưới -->
+    <TextView
+        android:id="@+id/txtMaVatTu"
+        android:text="Mã vật tư"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtSoLuong"
+        android:text="Số lượng:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:text="Giá:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtTongTien"
+        android:text="Tổng tiền:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

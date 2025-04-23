@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_storing"
+        android:title="Nhập hàng"/>
+    <item
+        android:id="@+id/nav_AccountUser"
+        android:title="Tài khoản người dùng"/>
+    <item
+        android:id="@+id/nav_Selling"
+        android:title="Bán hàng"/>
+</menu>

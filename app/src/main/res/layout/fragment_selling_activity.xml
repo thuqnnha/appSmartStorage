@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SellingActivity">
+
+    <Button
+        android:id="@+id/btnScanning"
+        android:layout_width="161dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Quét sản phẩm" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProducts"
+        android:layout_width="match_parent"
+        android:layout_height="389dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp"
+        android:padding="10dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btnPrintBill"
+        android:layout_width="161dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="600dp"
+        android:text="In hoá đơn" />
+</FrameLayout>
